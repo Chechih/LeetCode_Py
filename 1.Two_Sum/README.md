@@ -27,7 +27,7 @@ You can return the answer in any order.
 不過因為他只有兩個數字，可以作弊一下，用一個迴圈下去跑，跑到的那個數字去和目標數字相減，得出的差值檢查看看在不在陣列裡面，就可以得到答案了，不過要小心，相同位子的數字只能用一次。
 且檢查時，可以用字典增加速度。
 
-###解法
+### 解法
 ```python
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
