@@ -6,11 +6,10 @@ class Solution:
         numVals_dict = { val : idx for idx, val in enumerate(nums) }#建立值對應到位子的字典
         for numInd, numVal in enumerate(nums): 
             differ = target - numVal#差值
-            if(differ in numVals_dict):#檢查差值在不在陣列中
-                differ_ind = numVals_dict[differ]
-                if(differ_ind != numInd):#題目有說相同位子的數字不能用兩次
-                    rlt = numInd, differ_ind]
-                    break
+            differ_ind = numVals_dict.get(differ, -1)#取值, 取不到回傳 -1
+            if(differ_ind != -1 and differ_ind != numInd):#題目有說相同位子的數字不能用兩次
+                rlt = [numInd, differ_ind]
+                break
         return rlt
 
 #測試
