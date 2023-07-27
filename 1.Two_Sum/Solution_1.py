@@ -14,4 +14,4 @@ class Solution:
 
 #測試
 solution = Solution()
-solution.twoSum([3,2,4], 6);
+solution.twoSum([3,2,4], 6)
