@@ -4,6 +4,11 @@ You are given two non-empty linked lists representing two non-negative integers.
 
 You may assume the two numbers do not contain any leading zero, except the number 0 itself.
 
+### 翻譯
+您被給予兩個非空的鏈結串列，代表兩個非負整數。這些數字以相反的順序存儲，每個節點包含一個單個數字。請將這兩個數字相加，並將結果以鏈結串列形式返回。
+
+您可以假設這兩個數字除了數字0本身之外，不包含任何前導零。
+
 ##### Example 1:
     Input: l1 = [2,4,3], l2 = [5,6,4]
     Output: [7,0,8]
@@ -19,11 +24,6 @@ You may assume the two numbers do not contain any leading zero, except the numbe
 ##### Example 3:
     Input: l1 = [9,9,9,9,9,9,9], l2 = [9,9,9,9]
     Output: [8,9,9,9,0,0,0,1]
-
-### 翻譯
-您被給予兩個非空的鏈結串列，代表兩個非負整數。這些數字以相反的順序存儲，每個節點包含一個單個數字。請將這兩個數字相加，並將結果以鏈結串列形式返回。
-
-您可以假設這兩個數字除了數字0本身之外，不包含任何前導零。
 
 ### 想法
 一開始想到的方法是直接把鏈結串列，全部轉成整數，然後相加，再轉回去，超級暴力XDDD

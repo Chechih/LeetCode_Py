@@ -6,6 +6,11 @@ You may assume that each input would have exactly one solution, and you may not 
 
 You can return the answer in any order.
 
+### 翻譯
+給定一個整數數組，返回兩個數字的索引，使它們相加達到特定目標。
+
+您可以假設每個輸入都有一個解決方案。
+
 ##### Example 1:
     Input: nums = [2,7,11,15], target = 9
     Output: [0,1]
@@ -16,11 +21,6 @@ You can return the answer in any order.
 ##### Example 3:
     Input: nums = [3,3], target = 6
     Output: [0,1]
-
-### 翻譯
-給定一個整數數組，返回兩個數字的索引，使它們相加達到特定目標。
-
-您可以假設每個輸入都有一個解決方案。
 
 ### 想法
 看到題目時，第一個最直接的想法一定是用兩個迴圈下去跑XDD
