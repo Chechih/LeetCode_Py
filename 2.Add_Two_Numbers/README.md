@@ -26,7 +26,7 @@ You may assume the two numbers do not contain any leading zero, except the numbe
     Output: [8,9,9,9,0,0,0,1]
 
 ### 想法
-一開始想到的方法是直接把鏈結串列，全部轉成整數，然後相加，再轉回去，超級暴力XDDD
+一開始想到的方法是直接把鏈結串列，全部轉成整數，然後相加，再轉回去，超級暴力XDDD  
 可是觀察後發現，其實題目有提示，他就是一般的加法直式，從個位數十位數一直上去，只是要處理下進位問題，還有要小心 l1,比 l2 長，或是 l2 比 l1 長，導致導致沒有抓到數字變 null，ex: Example 3 。
 
 ### 解法

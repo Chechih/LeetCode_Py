@@ -17,7 +17,7 @@ Given a string s, return the longest palindromic substring in s.
 - s consist of only digits and English letters.
 
 ### 想法
-這題其實暴力法，一個 for 跑整個字串，在第二層 for 跑第二圈檢查字串是不是回文字串，就可以通過了。
+這題其實暴力法，一個 for 跑整個字串，在第二層 for 跑第二圈檢查字串是不是回文字串，就可以通過了。  
 然後想讓速度變快的話，可以一開始把所以字母位子記起來，之後跑兩個迴圈時，第二層只需要去檢查相同字母位子的字串即可，並且如果找到比較長的字串時，可以不要再去檢查比他短的了，這樣速度會快上許多。
 
 ### 解法
