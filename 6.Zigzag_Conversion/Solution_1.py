@@ -34,6 +34,5 @@ class Solution:
 #測試
 solution = Solution()
 print(solution.convert("PAYPALISHIRING", 5))
-print(solution.convert("ABCDE", 4))
-print(solution.convert("PAYPALISHIRING", 3))
 # print(solution.convert("ABCDE", 4))
+# print(solution.convert("PAYPALISHIRING", 3))
