@@ -4,7 +4,7 @@ Given a signed 32-bit integer **x**, return **x** with its digits reversed. If r
 
 **Assume the environment does not allow you to store 64-bit integers (signed or unsigned).**
  ### 翻譯
-給定一個帶符號的 32 位整數 **x**，請將其數字進行反轉後返回。如果反轉 **x** 導致超出帶符號 32 位整數的範圍 **[$-2^{31}$, $2^{31}$ - 1]**，則返回 **0**。
+給定一個帶符號的 32 位整數 **x**，請將其數字進行反轉後返回。如果反轉 **x** 導致超出帶符號 32 位整數的範圍 **[-2<sup>31</sup> , 2<sup>31</sup>  - 1]**，則返回 **0**。
 
 **假設環境不允許使用 64 位整數（有符號或無符號）。**
 
@@ -18,7 +18,7 @@ Given a signed 32-bit integer **x**, return **x** with its digits reversed. If r
     Input: x = 120
     Output: 21
 ##### Constraints:
-- $-2^{31}$ <= x <= $2^{31}$ - 1
+- -2<sup>31</sup> <= x <= 2<sup>31</sup> - 1
 
 ### 想法
 這題其實麻煩在**假設環境不允許使用 64 位整數（有符號或無符號）**，如果沒有限制，直接字串就可以解決了，如下方程式碼:
