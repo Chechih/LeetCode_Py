@@ -63,7 +63,7 @@ The algorithm for **myAtoi(string s)** is as follows:
 - s consists of English letters (lower-case and upper-case), digits (0-9), ' ', '+', '-', and '.'.
 
 ### 想法
-其實這題解題不皺都寫出來了!?跟著它寫出來的不皺寫基本上沒有太大的問題，只是要測一下，和想可能的測資。  
+其實這題解題步驟都寫出來了!?跟著它寫出來的步驟寫基本上沒有太大的問題，只是要測一下，和想可能的測資。  
 最終整理出來的步驟為:  
 1.刪除處理左右空白  
 2.檢查正負號，正號可以不理他，負號之後要把數字弄成負號  
