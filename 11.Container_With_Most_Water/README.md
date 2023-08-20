@@ -30,7 +30,7 @@ Return the maximum amount of water a container can store.
 - 0 <= height[i] <= 10<sup>4</sup>
 
 ### 想法 
-其實這題一開始，我是用暴力破解法的，沒辦法過XDDD
+其實這題一開始，我是用暴力破解法的，但沒辦法過XDDD
 然後觀察下，其實這題就是要找最大面積，而他的面積，其實就是由兩個因素決定的:  
 1. 下排的寬度(位子相減)  
 2. 高度最小值(height 的值)  
