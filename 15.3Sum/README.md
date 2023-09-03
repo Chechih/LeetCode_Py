@@ -31,7 +31,7 @@ Notice that the solution set must not contain duplicate triplets.
 ### 想法  
 這題可以使用雙指標來解，步驟可以歸類為以下:  
 1. 先將陣列排序，這樣就能夠使用雙指標來處理
-2. 然後使用一個迴圈跑遍陣列 **nums** 每個值，
+2. 然後使用一個迴圈跑遍陣列 **nums** 每個值
 3. 在迴圈內部使用雙指標，計算符合的值(等於 0)
 4. 使用兩個指針 left 和 right，分別指向外層迴圈選擇的數字後面的元素和最後一個元素。計算 nums[i] + nums[left] + nums[right] 的值。
 5. 如果計算的值，等於零，將值存在返回的陣列中  
