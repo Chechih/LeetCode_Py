@@ -12,7 +12,7 @@ Return the starting indices of all the concatenated substrings in **s**. You can
 
 在 **s** 中，一個 **連接的子字符串** 是指包含了任意排列的 **words** 中所有字符串的子字符串。
 
-例如，如果 **words = ["ab","cd","ef"]**，那麼 **"abcdef"**、**"abefcd"**、**"cdabef"**、**"cdefab"**、**"efabcd"** 和 **"efcdab"** 都是連接的字符串。**"acdbef"** 不是一個連接的子字符串，因為它不是任何 **words** 排列的串接。
+- 例如，如果 **words = ["ab","cd","ef"]**，那麼 **"abcdef"**、**"abefcd"**、**"cdabef"**、**"cdefab"**、**"efabcd"** 和 **"efcdab"** 都是連接的字符串。**"acdbef"** 不是一個連接的子字符串，因為它不是任何 **words** 排列的串接。
 返回 **s** 中所有連接子字符串的起始索引。答案可以以 **任何順序** 返回。
 
 ##### Example 1:
