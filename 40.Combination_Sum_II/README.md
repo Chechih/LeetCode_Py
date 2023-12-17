@@ -37,7 +37,7 @@ Each number in **candidates** may only be used **once** in the combination.
 - 1 <= target <= 30
 
 ### 想法
-這題其實和 [39.Combination_Sum](https://chechih.github.io/posts/LeetCode/39.Combination_Sum/) 差不多，差別在於 39 可以種複使用，這題只能使用給的數字，不果解法類似，多了一開始要先統計給定的 candidates 數字有哪些，然後慢慢遞迴消耗掉即可。
+這題其實和 [39.Combination_Sum](https://chechih.github.io/posts/LeetCode/39.Combination_Sum/) 差不多，差別在於 39 的數字可以重複使用，這題只能使用給的數字，不過解法類似。只是多了一開始要先統計給定的 candidates 數字有哪些，然後慢慢遞迴消耗掉，找到目標 target 即可。
 ### 解法
 ```python
 class Solution:
