@@ -40,7 +40,7 @@ The matching should cover the **entire** input string (not partial).
 接著根據正則表達式的首個字元進行不同的處理：  
 - '?' 表示可以匹配任意單個字符，遞迴調用 call_match(s[1:], p[1:])。
 - '*' 表示可以匹配零個或多個字符，分別遞迴調用 call_match(s[1:], p) 和 call_match(s, p[1:])。
-- 如果正則表達式和字串的首個字元相等，則遞迴調用 call_match(s[1:], p[1:])。
+- 如果正則表達式和字串的首個字元相等，則遞迴調用 call_match(s[1:], p[1:])。  
 最後還可以利用一個字典，將結果存進去，這樣可以節省重複搜尋的時間。  
 ### 解法 1
 ```python
