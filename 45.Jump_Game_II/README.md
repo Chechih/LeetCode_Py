@@ -41,7 +41,7 @@ Return the minimum number of jumps to reach **nums[n - 1]**. The test cases are 
 6. 如果 i + nums[i] >= nums_leg - 1，表示從該位置，走一步即可到達終點，將 step_dict[i] 設定為 1。
 7. 如果 max_move == 0，表示無法到達終點，將 step_dict[i] 設定為 max_num。否則，將 step_dict[i] 設定為從位置 i + 1 到 i + max_move 的最小步數加上 1。
 8. 重複步驟 5 到陣列結束
-9.最後返回 step_dict[0]，即從起始位置到達終點的最小步數。
+9. 最後返回 step_dict[0]，即從起始位置到達終點的最小步數。
 ### 解法 1
 ```python
 class Solution:
